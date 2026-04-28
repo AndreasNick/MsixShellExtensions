@@ -2,8 +2,8 @@
 #include <windows.h>
 
 VS_VERSION_INFO VERSIONINFO
- FILEVERSION 0,9,4,0
- PRODUCTVERSION 0,9,4,0
+ FILEVERSION 0,9,5,0
+ PRODUCTVERSION 0,9,5,0
  FILEFLAGSMASK 0x3fL
 #ifdef _DEBUG
  FILEFLAGS 0x1L
@@ -20,12 +20,12 @@ BEGIN
         BEGIN
             VALUE "CompanyName",      "MSIXForcelets"
             VALUE "FileDescription",  "MSIX Context Menu Handler Shell Extension"
-            VALUE "FileVersion",      "0.9.4.0"
+            VALUE "FileVersion",      "0.9.5.0"
             VALUE "InternalName",     "MsixContextMenuHandler"
             VALUE "LegalCopyright",   "Copyright 2025 Andreas Nick"
             VALUE "OriginalFilename", "MsixContextMenuHandler.dll"
             VALUE "ProductName",      "MsixContextMenuHandler"
-            VALUE "ProductVersion",   "0.9.4.0"
+            VALUE "ProductVersion",   "0.9.5.0"
         END
     END
     BLOCK "VarFileInfo"

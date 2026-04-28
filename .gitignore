@@ -27,3 +27,8 @@ obj/
 # Test copies of the built DLL (build from source or use a release)
 MsixContextMenuHandler/Test/*.dll
 MsixModernContextMenuHandler/Test/*.dll
+release-version.txt
+
+# Release tooling and artifacts
+New-GitHubRelease.ps1
+*.zip

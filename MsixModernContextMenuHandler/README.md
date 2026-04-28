@@ -97,6 +97,7 @@ loads correctly and that menu entries, labels, and command invocation work.
 
 > Requires Windows 11 21H2 (Build 22000) or later for testing. On Windows 10 the handler
 > is never called even in the classic flyout.
+> NOT FULL WORKING OUTSIDE OF AN MSIX!
 
 ```powershell
 # 1. Build Release|x64 (copies DLL to Test\)
@@ -181,7 +182,7 @@ This is shown in the manifest example above.
 
 **Cause 2 — PSF shimming processes the handler extensions (package-specific)**
 
-If the target MSIX package is also being patched with a PSF framework (e.g. Tim Mangan's
+If the target MSIX package is also being patched with a PSF framework (e.g. 
 PSFLauncher for registry fixups), and the `windows.comServer` and
 `windows.fileExplorerContextMenus` extensions sit under the same Application as the PSF
 shimmed executable, PSF will create a PSFLauncher entry for those extensions as well.
